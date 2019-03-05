@@ -15,7 +15,7 @@ Also, FaultTolerantHPCConAWS.json is easier to use. With it, you no longer have 
 2. Select a unique stack name (one you have never used and doesn't currently exist).
 3. Set the parameters of your HPCC System and the parameters needed by AWS to launch your cluster. 
 4. Be sure to enter an email address that works and that you can access. The launch process will send information to this email (like the ssh private key and the ECL Watch IP address). Also, when the cluster is ready, the launch process will let you know via email or if a instance goes down the launch process with let you know via email.
-5. The final step is to acknowledge that you know that the launch process will created AWS resources and click the "Create" button.
+5. The final step is to acknowledge that you know that the launch process will create AWS resources and click the "Create" button.
 
 ## Other Helpful Information
 
