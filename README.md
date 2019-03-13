@@ -1,6 +1,6 @@
 # FaultTolerantHPCConAWS
 
-This repository contains only one file, FaultTolerantHPCConAWS.json, which is a CloudFormation template that launches a fault tolerant HPCC cluster. Plus, it contains this README.md file.
+Besides this README.md file, this repository contains only one file, FaultTolerantHPCConAWS.json, which is a CloudFormation template that launches a fault tolerant HPCC cluster.
 
 FaultTolerantHPCConAWS.json has similar functionality as the CloudFormation template and scripts in the repository, https://github.com/tlhumphrey2/EasyFastHPCCoAWS.
 
