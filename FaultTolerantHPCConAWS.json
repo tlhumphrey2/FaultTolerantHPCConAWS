@@ -31,8 +31,9 @@
 
         "MyEmailAddress" : {
             "Description" : "Email where private key and ecl watch public ip will be sent.",
-            "Type" : "String",
-            "Default" : ""
+            "AllowedPattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$",
+            "ConstraintDescription": "ENTER A VALID EMAIL",
+            "Type" : "String"
         },
 
         "HPCCPlatform" : {
@@ -467,6 +468,7 @@
                 "InstanceType" : {
                     "Ref" : "BastionInstanceType"
                 },
+		"KeyName" : "tlh_keys_us_east_2",
 
                 "NetworkInterfaces": [ {
                 "AssociatePublicIpAddress": "true",
