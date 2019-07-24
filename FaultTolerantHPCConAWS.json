@@ -677,7 +677,20 @@
                                                 ]
                                         ]
                                 },
-                                "echo SCRIPT: COMPLETED installPublicKeyGottenFromMaster.pl"
+                                "echo SCRIPT: COMPLETED installPublicKeyGottenFromMaster.pl",
+
+                                "echo SCRIPT: START getResourceIdsAndTagWithRequired.pl",
+                                {
+                                        "Fn::Join" : [
+                                                " ", 
+                                                [
+                                                  "/home/$sshuser/getResourceIdsAndTagWithRequired.pl", 
+                                                  { "Ref": "AWS::StackName" }, 
+                                                  { "Ref" : "AWS::Region" }
+                                                ]
+                                        ]
+                                },
+                                "echo SCRIPT: COMPLETED getResourceIdsAndTagWithRequired.pl"
                               ]
                             ]
                           }
